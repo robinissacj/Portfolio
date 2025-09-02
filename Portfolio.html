@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robin Issac J - Portfolio</title>
+    <link rel="stylesheet" href="Portfolio.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"rel="stylesheet"/>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <H1 class="logo">ROBIN ISSAC J</H1>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#project">Project</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="ri-close-large-fill" onclick="closemenu()"></i>
+                </ul>
+                <i class="ri-menu-line" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Full Stack Developer & Vibe Coding</p>
+                <h1>Hi, I'm <span>Robin Issac J</span><br>From Chennai</h1>
+            </div>
+        </div>
+
+    </div>
+    <!-- ---------------------about-------------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Images/Robin.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p> Motivated and detail‑driven BCA graduate and certified Python Full Stack Developer with hands‑on experience in designing and developing responsive web applications. Skilled in both frontend and backend technologies including React.js, Python, and MongoDB. Eager to contribute to collaborative development environments, continuously learn, and grow into a professional software developer.</p>
+                    <br>
+                    <p>I'm a dedicated full-stack developer with a passion for creating elegant, efficient solutions to complex problems. With expertise in modern web technologies, I bring ideas to life through clean code and exceptional user experiences.</p>
+                    <br>
+                    <p>My journey in web development began with curiosity and has evolved into a career focused on continuous learning and innovation. I thrive in collaborative environments and enjoy tackling challenging projects that push the boundaries of what's possible.</p>
+
+                         <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                         </div>
+                         <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Frontend</span><br>HTML5,CSS3,JavaScript,React.js</li>
+                                <li><span>Backend</span><br>Python</li>
+                                <li><span> Tools & Platforms</span><br>GitHub,MicrosoftOffices</li>
+                                <li><span> SoftSkills</span><br>AnalyticalThinking, TimeManagement,Communication,Flexibility, Problem Solving</li>
+                            </ul>
+                         </div>
+                         <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+                                <li><span>Web Development</span><br>Web/App Development</li>
+                                <li><span>App Development</span><br>Building Android</li>
+                            </ul>
+                         </div>
+                         <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>Patrician College of Arts and Science Chennai (2021‑2024)</span><br> BCA‑Bachelor of ComputerApplications - 70%</li>
+                                <li><span>Anita Methodist Matriculation Higher SecondarySchool Chennai (2020‑2021)</span><br> HSC‑65%</li>
+                                <li><span>Anita Methodist Matriculation Higher SecondarySchool Chennai (2018‑2019)</span><br> SSLC‑48%</li>
+                            </ul>
+                         </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- ---------------------services------------------------ -->
+     <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class='bx bx-code-alt'></i>
+                    <h2>Web Developer & Design</h2>
+                    <p>I create modern, responsive, and SEO-friendly websites that deliver speed, accessibility, and engaging user experiences. My designs combine creativity with functionality, ensuring businesses and individuals have professional online presence across all devices.</p>
+                        <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class='bx bx-crop'></i>
+                    <h2>UI/UX Design</h2>
+                    <p>I design intuitive, user-centered interfaces that focus on usability and aesthetics. Through wireframes, prototypes, and design systems, I ensure smooth interactions, improved experiences, and visually appealing layouts that users truly enjoy.</p>
+                        <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class='bx bxl-android'></i>
+                    <h2>App Design</h2>
+                    <p>I design mobile applications with clean, functional, and visually appealing interfaces. My approach ensures easy navigation, consistent design elements, and user satisfaction while aligning with the latest app design trends.</p>
+                        <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+     </div>
+     <!-- ---------------------project------------------------ -->
+      <div id="project">
+        <div class="container">
+            <h1 class="sub-title">Project</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Images/Work-1.jpg" >
+                    <div class="layer">
+                        <h3>E-Commerce Store</h3>
+                        <p>A full-stack online store built with React, Python, and MongoDB. Features include product listings, cart management, authentication, and payment integration, showcasing real-world web development and database handling skills.</p>
+                         <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/Work-2.jpg" >
+                    <div class="layer">
+                        <h3>Task Management System</h3>
+                        <p>A task manager web app with CRUD operations built using MERN stack. Includes user login, task creation, progress tracking, and deadlines, emphasizing productivity features and full-stack development proficiency.</p>
+                         <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/Work-3.jpg" >
+                    <div class="layer">
+                        <h3>Expense Tracker Application</h3>
+                        <p>A web-based expense tracker built with React and Node.js. Users can add, edit, and categorize expenses, view monthly reports, and analyze spending habits with interactive charts and data visualization.</p>
+                         <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+      </div>
+      <!-- ---------------------contact-------------------------->
+       <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class='bx bx-send' ></i> robinissac067@gmail.com</p>
+                    <p><i class='bx bxs-phone'></i> +91 8438150077</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/robin-issac-j/" target="_blank"><i class='bx bxl-linkedin-square' ></i></a>
+                        <a href="https://github.com/robinissacj" target="_blank"><i class="ri-github-fill"></i></a>
+                    </div>
+                    <a href="Images/Robin Issac J Resume.pdf" download class="btn btn2">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+       </div>
+    <script src="Portfolio.js"></script>
+
+    <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbw0nn2KxE1CXanQ3N7iq0s0j8rYIJBWoU9ZeoUSagADeVByH_iQ2rz3adqde-KY_PSz/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Message Sent Successfully"
+        setTimeout(function(){
+            msg.innerHTML = ""
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+    })
+    </script>
+    
+</body>
+</html>
