@@ -173,7 +173,7 @@
     e.preventDefault()
     fetch(scriptURL, { method: 'POST', body: new FormData(form)})
       .then(response => {
-        msg.innerHTML = "Message Sent Successfully"
+        msg.innerHTML = "Message Sent Successfully! I’ll Get Back To You Soon."
         setTimeout(function(){
             msg.innerHTML = ""
         },5000)
@@ -185,3 +185,4 @@
     
 </body>
 </html>
+
